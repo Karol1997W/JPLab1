@@ -1,0 +1,28 @@
+#include <stdlib.h>
+#include <math.h>
+int main()
+{
+    
+    double m;
+    
+    scanf("%lf",&m);
+    
+    if(m>=0)
+        
+    printf("Pierwiastek: %.2lf\n",sqrt(m));
+    
+    else printf("Pierwiastek: BLAD\n");
+    
+    if(m==0) printf("Odwrotnosc: BLAD");
+    
+    else
+        
+    printf("Odwrotnosc: %.2lf",pow(m,-1));
+    
+    
+    
+    
+    
+    
+    return 0;
+}
